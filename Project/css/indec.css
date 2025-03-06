@@ -152,9 +152,9 @@ video{
     }
     #main{
         display: flex;
-        hr{
-            display: none;
-        }
+    }
+    #main hr{
+        display: none;
     }
     aside, section{
         margin: 20px;
@@ -162,10 +162,14 @@ video{
         padding: 20px;
         border: #261901 solid 3px;
         border-radius: 20px;
-        img{
-            border: #591902 solid 1px;
-            width: 100%;
-        }
+    }
+    aside img{
+        border: #591902 solid 1px;
+        width: 100%;
+    }
+    section img{
+        border: #591902 solid 1px;
+        width: 100%;
     }
     img{
         border: #591902 solid 3px;
